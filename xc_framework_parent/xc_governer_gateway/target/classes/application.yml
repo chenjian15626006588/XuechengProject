@@ -1,0 +1,19 @@
+server:
+  port: 50201
+  servlet:
+    context-path: /api
+spring:
+  application:
+    name: xc_governer_gateway
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_SERVER:http://localhost:50101/eureka/}
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    ip-address: ${IP_ADDRESS:127.0.0.1}
+    instance-id: ${spring.application.name}:${server.port}

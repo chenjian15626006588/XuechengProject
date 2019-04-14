@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xc_framework_common" />
+        <module name="xc_framework_model" />
+        <module name="xc_framework_utils" />
+        <module name="xc_governer_center" />
+        <module name="xc_governer_gateway" />
+        <module name="xc_service_api" />
+        <module name="xc_service_manage_cms" />
+        <module name="xc_service_manage_cms_client" />
+        <module name="xc_service_ucenter_auth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xc_framework_common" target="1.8" />
+      <module name="xc_framework_model" target="1.8" />
+      <module name="xc_framework_parent" target="1.8" />
+      <module name="xc_framework_utils" target="1.8" />
+      <module name="xc_governer_center" target="1.8" />
+      <module name="xc_governer_gateway" target="1.8" />
+      <module name="xc_service_api" target="1.8" />
+      <module name="xc_service_manage_cms" target="1.8" />
+      <module name="xc_service_manage_cms_client" target="1.8" />
+      <module name="xc_service_ucenter_auth" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
